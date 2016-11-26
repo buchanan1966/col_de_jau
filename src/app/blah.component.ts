@@ -4,9 +4,9 @@
 import {Component} from '@angular/core'
 
 @Component({
-  template: '<h2>BLAH</h2>'
+  templateUrl: 'blah.component.html',
 })
 
 export class BlahComponent {
-
+  title = 'Blah';
 }
